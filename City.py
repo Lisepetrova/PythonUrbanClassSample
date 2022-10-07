@@ -6,7 +6,7 @@ class City:
    self.population = population
    
   def get_city_info (self):
-   return "Город - {self.name}. Население:{self.population}"
+   return f"Город - {self.name}. Население:{self.population}"
    
 
   city_1 = City ("Piterburg", 5377503)
